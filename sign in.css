@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/sign\ in.webp);
+    background-position:center ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+max-width: 600px;
+width: 90%;
+}
+.input-group{
+    margin: 1em;
+    position: relative;
+}
+input{
+    width: 100%;
+    padding: 1em;
+    outline: 0;
+    background:#be9191 ;
+    color:#eaded8 ;
+    border: 1px solid#aba4a4 ;
+
+}
+label{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    color: #726c72;
+    cursor: text;
+    transition: 0.2s;
+}
+button{
+    cursor: pointer;
+    padding: 1em 0;
+    border: 1px solid #ddaeab;
+    background: #726c72;
+    color: #eaded8;
+    outline: 0;
+    width: 100px;
+}
+
+input:focus~label,
+    input:valid~label {
+        top: -35px;
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
